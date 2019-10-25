@@ -1,14 +1,49 @@
-h1 {
-    color: white;
-    background-color: #4aaaa5;
-    font-size: 20px;
-    width: 220px;
-    margin: 0px 0px 0px 99px;
-    padding: 5px 5px 10px 5px;
-  }
-.navbar-nav {
-    float: right;
+#navbarNav {
+  justify-content: flex-end;
 }
-.nav-link {
-    float: right;
+#smallscreennav {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #666666;
+}
+.name {
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline;
+  padding: 10px 10px 0px 10px;
+}
+.containerbg {
+  background-image: url("assets/images/bghw.jpg");
+}
+.containersect {
+  background-color: white;
+  height: 400px;
+  width: 560px;
+  border: solid thin 1px;
+  margin: 10px 30px 20px 30px; 
+}
+#smallscreensect {
+  background-color: white;
+  height: 400px;
+  width: 560px;
+  border: solid thin 1px;
+}
+h5 {
+  float: right;
+}
+#footer {
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #666666;
+  text-decoration: none;
+  border-top: 8px solid #4aaaa5;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right:0;
 }
